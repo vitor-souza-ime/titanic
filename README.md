@@ -31,26 +31,20 @@ Ela retorna:
 ## 🚀 Como Executar
 
 1. Clone este repositório:
-   ```bash
    git clone https://github.com/vitor-souza-ime/titanic.git
    cd titanic
-````
 
 2. Abra um cliente SQL compatível (ex.: **SQLite**, **DuckDB**, **DBeaver**, etc.).
 
 3. Carregue o dataset:
 
-   ```sql
    .mode csv
    .import train.csv train
-   ```
-
+   
 4. Execute o script:
 
-   ```sql
    .read main.sql
-   ```
-
+   
 ---
 
 ## 📊 Exemplo de Saída
